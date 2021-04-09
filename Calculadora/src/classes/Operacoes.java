@@ -4,8 +4,8 @@ import interfaces.CalculosMatematico;
 
 public abstract class Operacoes implements CalculosMatematico {
 	
-	private int numero1;
-	private int numero2;
+	protected int numero1;
+	protected int numero2;
 	
 	public Operacoes(int numero1, int numero2) {
 		this.numero1 = numero1;

@@ -8,7 +8,7 @@ public class Adicao extends Operacoes{
 
 	@Override
 	protected int doCalcular() {
-		return getNumero1() + getNumero2();
+		return numero1 + numero2;
 	}
 
 }
