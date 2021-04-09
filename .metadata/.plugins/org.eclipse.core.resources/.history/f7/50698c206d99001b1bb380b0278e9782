@@ -44,7 +44,7 @@ public class Programa {
 		
 		vet.setNome("Christian Lopes");
 		vet.atenderAnimal(animal2);
-		System.out.println("Animais atendios pelo veterinário " + vet.getNome() + ".");
+		System.out.println("Animais atendios pelo veterinário " + vet.getNome());
 		vet.listaAnimaisAtendidos();
 	
 		

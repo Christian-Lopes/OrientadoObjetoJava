@@ -3,7 +3,6 @@ package app;
 import classes.Animal;
 import classes.Cachorro;
 import classes.Gato;
-import classes.Veterinario;
 import classes.Zoologico;
 
 public class Programa {
@@ -39,15 +38,6 @@ public class Programa {
 		zoo.removerAnimal(0);
 		System.out.println("Lista de animais do " + zoo.getNome());
 		zoo.listarAnimal();
-		
-		Veterinario vet = new Veterinario();
-		
-		vet.setNome("Christian Lopes");
-		vet.atenderAnimal(animal2);
-		System.out.println("Animais atendios pelo veterinário " + vet.getNome() + ".");
-		vet.listaAnimaisAtendidos();
-	
-		
 		
 	}
 
