@@ -1,0 +1,18 @@
+package app;
+
+import classes.Animal;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		Animal cachorro = new Animal("Amorinha", "Pug", 4);
+		
+		System.out.println("Olá, seu animail é " + cachorro.getNome() + " da raça " + cachorro.getEspecie());
+		if(cachorro.adulto()) {
+			System.out.println("Seu animal é adulto!");
+		}else {
+			System.out.println("Seu animal não é adulto!");
+		}
+	}
+
+}

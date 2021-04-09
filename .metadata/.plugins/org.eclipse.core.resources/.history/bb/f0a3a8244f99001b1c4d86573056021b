@@ -1,0 +1,34 @@
+package app;
+
+import classes.Cachorro;
+import classes.Gato;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		Cachorro cachorro = new Cachorro("Amorinha", "Pug", 4);
+		Gato gato = new Gato("Fiona", "Persa", 1);
+		
+		System.out.println("============================== CACHORRO ===========================");
+		System.out.println("Olá, seu animail é " + cachorro.getNome() + " da raça " + cachorro.getEspecie() + "!");
+		//cachorro.estaMorto();
+		if(cachorro.adulto()) {
+			System.out.println("Seu animal é adulto!");
+		}else {
+			System.out.println("Seu animal ainda não é adulto!");
+		}
+		System.out.println("Barulho do cachorro!");
+		cachorro.emitirBarulho();
+		System.out.println("============================== GATO ===========================");
+		System.out.println("Olá, seu animail é " + gato.getNome() + " da raça " + gato.getEspecie() + "!");
+		if(gato.adulto()) {
+			System.out.println("Seu animal é adulto!");
+		}else {
+			System.out.println("Seu animal ainda não é adulto!");
+		}
+		System.out.println("Barulho do gato.");
+		gato.emitirBarulho();
+		
+	}
+
+}

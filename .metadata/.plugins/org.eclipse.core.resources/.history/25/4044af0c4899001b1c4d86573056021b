@@ -1,0 +1,10 @@
+package classes;
+
+public class Cachorro extends Animal {
+
+	public Cachorro(String nome, String especie, int idade) {
+		super(nome, especie, idade);
+		// TODO Auto-generated constructor stub
+	}
+
+}

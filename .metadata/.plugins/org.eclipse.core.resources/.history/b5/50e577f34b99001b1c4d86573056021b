@@ -1,0 +1,16 @@
+package classes;
+
+public class Gato extends Animal {
+
+	public Gato(String nome, String especie, int idade) {
+		super(nome, especie, idade);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void emitirBarulho() {
+		System.out.println("Gato mia..");
+	}
+
+	
+}

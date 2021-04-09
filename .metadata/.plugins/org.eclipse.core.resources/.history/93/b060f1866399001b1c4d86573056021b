@@ -1,0 +1,34 @@
+package classes;
+
+import java.util.List;
+
+public class Zoologico {
+
+	private String nome;
+	private List<Animal> animal;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public Zoologico(String nome) {
+		this.nome = nome;
+	}
+	
+	public void adicionarAnimail(Animal addAnimal) {
+		animal.add(addAnimal);
+	}
+	
+	public void removerAnimal(int removeItem) {
+		animal.remove(removeItem);
+	}
+	
+	public void listarAnimal() {
+		for (int i = 0; i < animal.size(); i++) {
+			System.out.println("    -- " + getNome());
+		}
+	}
+}
